@@ -1,0 +1,30 @@
+Copyright (c) 2026 Alchemiq. All rights reserved.
+
+This repository contains the configuration manifest for the Alchemiq News
+Intelligence plugin for Claude Code. The manifest and accompanying
+documentation are made available solely to enable installation of the
+plugin against the hosted Alchemiq Desk MCP server at mcp.alchemiqai.com.
+
+No license, express or implied, is granted to the underlying Alchemiq
+service, its source code, its data, its prompts, or any derivative works.
+
+Permitted, without separate written permission from Alchemiq:
+  - Installing the plugin via Claude Code.
+  - Forking this repository for the sole purpose of submitting a pull
+    request that improves the documentation or configuration herein.
+
+Not permitted, without separate written permission from Alchemiq:
+  - Redistribution of this repository or its contents in modified form.
+  - Use of the Alchemiq name, logo, or brand in any derivative work.
+  - Operating a hosted service that impersonates, mirrors, or otherwise
+    replicates the Alchemiq Desk MCP server.
+  - Reverse-engineering the hosted Alchemiq service through this plugin.
+
+THE CONTENTS OF THIS REPOSITORY ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+IN NO EVENT SHALL ALCHEMIQ BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE CONTENTS OF
+THIS REPOSITORY OR THE USE OR OTHER DEALINGS THEREIN.
+
+For licensing inquiries: liad@alchemiq.ai
