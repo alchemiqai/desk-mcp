@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "alchemiq-news-intelligence",
-  "displayName": "Alchemiq News Intelligence",
   "version": "1.0.0",
   "description": "AI-curated, publication-ready global news intelligence inside Claude. Search ranked story clusters across hundreds of publishers, drill into full story packages, generate editor-ready briefs, and localize them — powered by the hosted Alchemiq Desk MCP server.",
   "author": {
