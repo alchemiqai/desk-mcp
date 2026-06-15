@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./og-image.png" alt="Alchemiq News Intelligence" width="100%">
+</p>
+
 # Alchemiq News Intelligence
 
 AI-curated, publication-ready global news intelligence — available inside **ChatGPT**, **Claude**, and **Gemini**.
