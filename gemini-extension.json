@@ -1,0 +1,10 @@
+{
+  "name": "alchemiq-news-intelligence",
+  "version": "1.0.0",
+  "description": "AI-curated, publication-ready global news intelligence. Search ranked story clusters across hundreds of publishers, drill into full story packages, generate editor-ready briefs, and localize them — powered by the hosted Alchemiq Desk MCP server.",
+  "mcpServers": {
+    "alchemiq-news": {
+      "httpUrl": "https://mcp.alchemiqai.com/mcp"
+    }
+  }
+}
