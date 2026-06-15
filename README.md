@@ -1,12 +1,12 @@
-# Alchemiq News Intelligence — Claude Code Plugin
+# Alchemiq News Intelligence
 
-AI-curated, publication-ready global news intelligence, available inside Claude Code via the Model Context Protocol.
+AI-curated, publication-ready global news intelligence — available inside **ChatGPT**, **Claude**, and **Gemini**.
 
-This plugin connects Claude to the hosted **Alchemiq Desk MCP server** at `mcp.alchemiqai.com`. No local server is started; authentication happens through Alchemiq's secure OAuth flow the first time you use a tool.
+This repository ships installable manifests for the **Alchemiq Desk MCP server** hosted at `https://mcp.alchemiqai.com/mcp`. The server speaks the [Model Context Protocol](https://modelcontextprotocol.io/), so it works with any MCP-compatible AI assistant. Authentication is handled by Alchemiq's secure OAuth flow on first use.
 
 ## What you get
 
-Five tools exposed to Claude:
+Five tools exposed to your assistant:
 
 | Tool | What it does |
 | :--- | :--- |
@@ -20,21 +20,51 @@ Coverage spans 50+ categories (Business, Technology, Politics, Health, Entertain
 
 ## Install
 
-### From the Claude Code community marketplace
+### ChatGPT
+
+Add the **Alchemiq News Intelligence** app from the ChatGPT Apps directory, or connect the MCP server directly:
+
+```
+https://mcp.alchemiqai.com/mcp
+```
+
+Settings → Connectors → Add MCP server → paste the URL above and complete OAuth.
+
+### Claude (Claude Code & Claude apps)
+
+In Claude Code, this repository is a complete plugin. Install via the community marketplace:
 
 ```bash
 /plugin marketplace add anthropics/claude-plugins-community
 /plugin install alchemiq-news-intelligence@claude-community
 ```
 
-### Direct from this repository
+Or directly from this repo:
 
 ```bash
 /plugin marketplace add alchemiqai/desk-mcp
 /plugin install alchemiq-news-intelligence
 ```
 
-After installation, run `/mcp` to complete the Alchemiq sign-in. If you do not yet have an account, create one at [alchemiqai.com](https://alchemiqai.com).
+In Claude apps (web/desktop), add the connector at `https://mcp.alchemiqai.com/mcp` from Settings → Connectors.
+
+### Gemini (Gemini CLI)
+
+```bash
+gemini extensions install https://github.com/alchemiqai/desk-mcp
+```
+
+The extension manifest in this repo registers the MCP server automatically. Run `/extensions list` inside Gemini to verify.
+
+### Any other MCP client
+
+Point your client at:
+
+```
+https://mcp.alchemiqai.com/mcp
+```
+
+Transport: HTTP (streamable). Authentication: OAuth 2.0 via Frontegg — your client will be redirected on first tool call.
 
 ## Example prompts
 
@@ -46,8 +76,9 @@ After installation, run `/mcp` to complete the Alchemiq sign-in. If you do not y
 
 ## Authentication & data
 
-- Sign-in is handled by Alchemiq via secure OAuth 2.0 — credentials are never exchanged with Claude.
-- An Alchemiq account is required. The plugin sends only your queries and the tokens needed to scope the session to your account.
+- Sign-in is handled by Alchemiq via secure OAuth 2.0 — credentials are never exchanged with the AI assistant.
+- An Alchemiq account is required. Create one at [alchemiqai.com](https://alchemiqai.com).
+- The extension transmits only your tool calls and your session token. No background data collection.
 
 ## Legal
 
