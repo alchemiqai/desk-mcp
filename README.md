@@ -77,7 +77,7 @@ Transport: HTTP (streamable). Authentication: OAuth 2.0 via Frontegg — your cl
 ## Authentication & data
 
 - Sign-in is handled by Alchemiq via secure OAuth 2.0 — credentials are never exchanged with the AI assistant.
-- An Alchemiq account is required. Create one at [alchemiqai.com](https://alchemiqai.com).
+- An Alchemiq account is required. Create one at [alchemiq.ai](https://alchemiq.ai).
 - The extension transmits only your tool calls and your session token. No background data collection.
 
 ## Legal
@@ -88,6 +88,6 @@ Transport: HTTP (streamable). Authentication: OAuth 2.0 via Frontegg — your cl
 
 ## Support
 
-- Website: <https://alchemiqai.com>
+- Website: <https://alchemiq.ai>
 - Issues: open one in this repository
-- Email: liad@alchemiq.ai
+- Email: support@alchemiq.ai

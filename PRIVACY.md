@@ -15,4 +15,4 @@ Sign-in is handled via secure OAuth 2.0 against Alchemiq's identity provider (Fr
 
 ## Contact
 
-For privacy questions, contact liad@alchemiq.ai or see <https://alchemiq.ai/privacy>.
+For privacy questions, contact support@alchemiq.ai or see <https://alchemiq.ai/privacy>.

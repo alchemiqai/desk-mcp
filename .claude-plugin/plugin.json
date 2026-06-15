@@ -5,10 +5,10 @@
   "description": "AI-curated, publication-ready global news intelligence inside Claude. Search ranked story clusters across hundreds of publishers, drill into full story packages, generate editor-ready briefs, and localize them — powered by the hosted Alchemiq Desk MCP server.",
   "author": {
     "name": "Alchemiq",
-    "email": "liad@alchemiq.ai",
-    "url": "https://alchemiqai.com"
+    "email": "support@alchemiq.ai",
+    "url": "https://alchemiq.ai"
   },
-  "homepage": "https://alchemiqai.com",
+  "homepage": "https://alchemiq.ai",
   "repository": "https://github.com/alchemiqai/desk-mcp",
   "license": "LicenseRef-Proprietary",
   "keywords": [
